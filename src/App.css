@@ -1,133 +1,40 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+    text-align: center;
+  }
+  
   .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-  50% {
-    transform: translateY(10px);
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
-  100% {
-    transform: translateY(0px);
+  
+  .App-link {
+    color: #61dafb;
   }
-}
-
-#scrollbar::-webkit-scrollbar {
-  width: 8px;
-}
-#scrollbar::-webkit-scrollbar-track {
-  border-radius: 5px;
-}
-#scrollbar::-webkit-scrollbar-thumb {
-  background: #e5e7eb;
-  border-radius: 7px;
-}
-
-#scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #e5e7ebb1;
-}
-
-/* ================ Date Picker Inline Custom Style ================== */
-.date-picker-inline .react-datepicker {
-  border: none !important;
-}
-
-.date-picker-inline .react-datepicker__header {
-  background-color: #fff !important;
-  border: none !important;
-}
-
-.date-picker-inline .react-datepicker__current-month,
-.date-picker-inline .react-datepicker-time__header,
-.date-picker-inline .react-datepicker-year-header {
-  font-size: 1.1rem !important;
-}
-
-.date-picker-inline .react-datepicker__day--selected,
-.date-picker-inline .react-datepicker__day--selected:hover,
-.date-picker-inline .react-datepicker__day--keyboard-selected,
-.date-picker-inline .react-datepicker__day--keyboard-selected:hover,
-.date-picker-inline .react-datepicker__day--in-selecting-range:hover,
-.date-picker-inline .react-datepicker__day--in-range:hover,
-.date-picker-inline .react-datepicker__month-text--selected:hover,
-.date-picker-inline .react-datepicker__month-text--in-selecting-range:hover,
-.date-picker-inline .react-datepicker__month-text--in-range:hover,
-.date-picker-inline .react-datepicker__quarter-text--selected:hover,
-.date-picker-inline .react-datepicker__quarter-text--in-selecting-range:hover,
-.date-picker-inline .react-datepicker__quarter-text--in-range:hover,
-.date-picker-inline .react-datepicker__year-text--selected:hover,
-.date-picker-inline .react-datepicker__year-text--in-selecting-range:hover,
-.date-picker-inline .react-datepicker__year-text--in-range:hover {
-  background-color: purple !important;
-}
-
-.date-picker-inline .react-datepicker__day-name,
-.date-picker-inline .react-datepicker__day,
-.date-picker-inline .react-datepicker__time-name {
-  width: 3.1vw !important;
-}
-
-@media only screen and (max-width: 1400px) {
-  .date-picker-inline .react-datepicker__day-name,
-  .date-picker-inline .react-datepicker__day,
-  .date-picker-inline .react-datepicker__time-name {
-    width: 3vw !important;
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
-}
+  
 
-/* ================ Date Picker Block Custom Style ================== */
-
-.date-picker-block .react-datepicker__header {
-  background-color: #fff !important;
-  border: none !important;
-}
-
-.date-picker-block .react-datepicker__current-month,
-.date-picker-block .react-datepicker-time__header,
-.date-picker-block .react-datepicker-year-header {
-  font-size: 1.1rem !important;
-}
-
-.date-picker-block .react-datepicker__day--selected,
-.date-picker-block .react-datepicker__day--selected:hover,
-.date-picker-block .react-datepicker__day--keyboard-selected,
-.date-picker-block .react-datepicker__day--keyboard-selected:hover,
-.date-picker-block .react-datepicker__day--in-selecting-range:hover,
-.date-picker-block .react-datepicker__day--in-range:hover,
-.date-picker-block .react-datepicker__month-text--selected:hover,
-.date-picker-block .react-datepicker__month-text--in-selecting-range:hover,
-.date-picker-block .react-datepicker__month-text--in-range:hover,
-.date-picker-block .react-datepicker__quarter-text--selected:hover,
-.date-picker-block .react-datepicker__quarter-text--in-selecting-range:hover,
-.date-picker-block .react-datepicker__quarter-text--in-range:hover,
-.date-picker-block .react-datepicker__year-text--selected:hover,
-.date-picker-block .react-datepicker__year-text--in-selecting-range:hover,
-.date-picker-block .react-datepicker__year-text--in-range:hover {
-  background-color: purple !important;
-}

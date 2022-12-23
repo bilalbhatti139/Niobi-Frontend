@@ -1,0 +1,292 @@
+
+.container{
+  min-height: 100vh;
+  display:flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-container{
+  background: url("/public/assets/3.gif") center;
+}
+
+.register-container{
+  background: url("/public/assets/3.gif") center;
+}
+
+.login-container{
+  background: url("/public/assets/3.gif") center;
+}
+/* 
+.wrapper{
+  width: 496px;
+  padding: 20px;
+  background-color:white;
+  padding: 48px 16px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  @media only screen and (max-width: 380px){
+      {width:"75%"}
+  }
+}
+
+.login-container > .wrapper{
+  width: 25%;
+} */
+
+
+.btn-link{
+  padding: 5px;
+  margin: 5px 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  width: 464px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #025041;
+}
+
+.form-input{
+  display: flex;
+  width: 464px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form-text{
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+}
+
+.invalid-feedback{
+  color: red;
+  font-weight: 500;
+}
+
+.title-login{
+  font-size: 24px;
+  font-weight: 300;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pwd-container {
+  position: relative;
+}
+
+.pwd-container input {
+  /* padding: 5px 30px 5px 10px;
+  font-size: 20px; */
+}
+
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 8px;
+  top: 15px;
+  background: transparent;
+}
+
+.inputBx{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-bottom: 15px;
+}
+.formBx{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 8px;
+  padding: 10px 18px;
+}
+
+
+.formBx .inputBx {
+  margin: 0px 0px;
+  padding-bottom: 5px;
+}
+
+.formBx .inputBx span {
+  width: 40%px;
+  height: 20px;
+  font-family: 'Faktum';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #025041;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.formBx .inputBx input {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+  width: 100%;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.formBx .inputBx input:hover {
+  border-color: #023d41;
+  box-shadow:rgba(22, 211, 123, 0.2) 0px 0px 0px 4px 2px 2px 2px 2px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+  width: 368px;
+  height: 48px;
+  background: #023d31;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.formBx .inputBx input[type="submit"]:hover {
+  background: #023d31;
+}
+
+.formBx .remember {
+  margin-bottom: 10px;
+  color: #023d41;
+  font-weight: 400;
+  font-size: 14px;
+  width: 80%;
+}
+
+  .formBx .remember input[type="checkbox"] {
+    margin-right: 0.2rem;
+  }
+
+.formBx .remember .link {
+  width: 368px;
+  height: 20px;
+  font-family: 'Faktum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #707070;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+  .formBx .inputBx p {
+    width: 278px;
+    height: 20px;
+    font-family: 'Faktum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #025041;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+
+ .formBx .inputBx button {
+  width: 80%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #c1c9c1;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background: transparent;
+  color: #025041;
+}
+
+ .formBx .inputBx button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+  margin-top: 10px;
+  
+  width: 100%;
+  height: 48px;
+  
+  background:#025041;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+
+.formBx .inputBx button[type="submit"] span{
+height: 24px;
+font-family: 'Faktum';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+ .formBx .inputBx button[type="submit"]:hover {
+  background: #023d31;
+}
+
+.invalid-feedback{
+  color: red;
+}
+
+
+.mobile-no-input{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.inputBx-mobile-prefix{
+  width: 30%;
+}
+
+.inputBx-mobile{
+ width: 70%;
+ display: grid;
+ padding-left: 0.2rem;
+}
+
+.input-mobile .inputBx{
+}
